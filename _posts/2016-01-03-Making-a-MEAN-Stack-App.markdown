@@ -6,10 +6,10 @@ categories: jekyll update
 ---
 The MEAN Stack
 ==============
-M = MongoDB
-E = ExpressJS
-A = AngularJS
-N = NodeJS
+M = MongoDB  
+E = ExpressJS  
+A = AngularJS  
+N = NodeJS  
 
 Pre-reqs
 ========
@@ -18,9 +18,8 @@ In order for you to follow along you will need to have Node.js and MongoDB insta
 User-Stories
 ============
 What are we building? below I will outline the MVP (Minimum Viable Product) we are shooting for.
--Users can posts
--Users can delete posts
--
+*Users can posts
+*Users can delete posts
 
 Getting Started
 ===============
@@ -47,6 +46,12 @@ then create an index html file so we can see some stuff happening `touch index.h
 
 {% endhighlight %}
 
+This html connects to the angularJS CDN so we can use Angular in our application as well as our app.js file where we will write our custom scripts and includes our first use of angular (ng-app and ng-controller)
+
+6. in the app.js add the following javascript
+{% highlight javascript %}
+
+{% endhighlight %}
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
